@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fast-api-lms"
+version = "0.1.0"
+description = "Learning Management System built with Poetry, FastAPI, PostGres,and Alchemy"
+authors = ["Gauthier Kanku <jorbelgauthier@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.24.0.post1"
+fastapi = "^0.105.0"
+pydantic = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
